@@ -1,0 +1,232 @@
+package rs.ac.bg.etf.pp1;
+
+import java_cup.runtime.*;
+import org.apache.log4j.*;
+import rs.ac.bg.etf.pp1.ast.*;
+import java.io.*;
+
+parser code {:
+	
+	boolean greska=false;
+	
+	Logger log = Logger.getLogger(getClass());
+   
+    // slede redefinisani metodi za prijavu gresaka radi izmene teksta poruke
+     
+    public void report_fatal_error(String message, Object info) throws java.lang.Exception {
+      done_parsing();
+      report_error(message, info);
+    }
+  
+    public void syntax_error(Symbol cur_token) {
+        report_error("\nSintaksna greska", cur_token);
+    }
+  
+    public void unrecovered_syntax_error(Symbol cur_token) throws java.lang.Exception {
+        report_fatal_error("Fatalna greska, parsiranje se ne moze nastaviti", cur_token);
+    }
+
+    public void report_error(String message, Object info) {
+    	greska=true;
+    	System.err.print(message);
+    	System.err.flush();
+    	if (info instanceof Symbol)
+            System.err.println (" na liniji " + ((Symbol)info).left);
+    	else System.err.println("");
+    }
+:}
+
+scan with {:
+	Symbol s = this.getScanner().next_token();
+     if (s != null && s.value != null) 
+	System.out.println(s.toString() + " " + s.value.toString());
+	return s;
+:}
+
+init with{:
+	greska=false;
+:};
+
+terminal CONST,PROGRAM,BREAK,CLASS,ELSE,IF,NEW,PRINT,READ,RETURN,VOID,DO,WHILE,EXTENDS,CONTINUE;
+
+terminal String IDENT;
+terminal String BOOLCONST;
+terminal Integer NUMBER;
+terminal Character CHARCONST;
+
+
+terminal ADD,SUB,MUL,DIV,MOD;
+
+terminal EQUAL,NOTEQUAL,GREATER,GREATEREQ,LESS,LESEQ;
+
+terminal AND,OR,INC,DEC;
+
+terminal SEMICOMA,COMMA,DOT;
+
+terminal LPAREN,RPAREN,LBRACKET,RBRACKET,LBRACE,RBRACE;
+
+terminal ASSIGN;
+
+
+
+non terminal Program;
+non terminal DeclarationList;
+non terminal DeclarationPart;
+
+non terminal ConstDecl;
+non terminal VarDecl;
+
+
+non terminal ConstList;
+non terminal ConstPart;
+
+
+non terminal GlobalVarDecl;
+non terminal GlobalVarList;
+non terminal GlobalVarPart;
+
+non terminal VarDeclList;
+non terminal VarList;
+non terminal VarPart;
+
+non terminal StatementList;
+non terminal Statement;
+
+non terminal FunctionDeclList;
+non terminal FunctionDecl;
+non terminal FunctionStart;
+
+
+non terminal rs.etf.pp1.symboltable.concepts.Obj Type;
+non terminal rs.etf.pp1.symboltable.concepts.Obj ProgramName,Designator,DesignatorLeft, Function,Expr,FuncCall,Term,Factor,DesignatorArray;
+non terminal rs.etf.pp1.symboltable.concepts.Obj Mulop,Addop;
+
+
+Program::=(Programm) PROGRAM ProgramName:o DeclarationList LBRACE FunctionDeclList RBRACE;
+
+ProgramName::=(Program_name) IDENT:id;
+
+
+DeclarationList::=(Declaration_list) DeclarationList DeclarationPart
+				|
+				(No_declaration_list);
+
+
+DeclarationPart::=(Declaration_part_const) ConstDecl
+				|(Declaration_part_global)Type GlobalVarDecl
+				;
+
+ConstDecl::= (Const_decl) CONST Type ConstList SEMICOMA;
+
+ConstList::=(Const_list1) ConstList COMMA ConstPart
+			|(Const_list2) ConstPart 
+			;
+ConstPart::=(Const_number) IDENT:id ASSIGN NUMBER:value
+			|(Const_char) IDENT:id ASSIGN CHARCONST:value
+			|(Const_bool)IDENT:id ASSIGN BOOLCONST:value
+			;
+
+GlobalVarDecl::=(Global_var_decl1)GlobalVarList SEMICOMA
+				//|(Global_var_decl_error) error SEMICOMA:l
+				//{:parser.report_error("Uspesan oporavak do ;  pri deklaraciji globalne promenljive u liniji " + lleft,null);:}
+				;
+
+GlobalVarList::=(Global_var_list1)GlobalVarList COMMA GlobalVarPart
+				|(Global_var_list2) GlobalVarPart
+				|(Global_var_list_error) error:l
+				{:parser.report_error("Uspesan oporavak do prvog ; ili sledeceg ,  pri deklaraciji globalne promenljive u liniji " + lleft,null);:}
+				;
+
+GlobalVarPart::=(Global_var_id) IDENT:id
+				|(Global_var_array_id) IDENT:id LBRACKET RBRACKET//Ovde je bila dodata jos jedna smena prazna .Ja mislim da sam tu pogresila .
+			
+				;
+				
+
+Type::=(Typee) IDENT:id;
+
+
+FunctionDeclList ::=(Func_dec1) FunctionDeclList FunctionDecl 
+					|(Func_dec2)/* epsilon */ 
+					;
+
+Function ::=(Func_void2) VOID IDENT:name
+			;
+			
+FunctionStart::=(FunctionStart1) Function:o LPAREN RPAREN VarDeclList LBRACE ;	
+
+FunctionDecl ::=(Function_decl)FunctionStart:f StatementList RBRACE ;
+
+
+VarDeclList::=(Var_decl_list)VarDeclList VarDecl
+			|
+			(No_var_decl_list)/*epsilon*/
+			;
+VarDecl::=(Var_decl)Type VarList SEMICOMA;
+
+VarList::=(Var_list1) VarList COMMA VarPart
+		 |(Var_list2) VarPart
+		 ;
+
+VarPart::=(Var_part1) IDENT:id
+		 |(Var_part2) IDENT:id LBRACKET RBRACKET
+		 ;
+
+
+StatementList::=(Statement_list) StatementList Statement
+				| 
+				(No_statement_list)/*epsilon*/
+				;
+
+Statement::=(Matched1) Designator:des ASSIGN DesignatorLeft:dleft SEMICOMA
+	
+		|(Designator_statement3) Designator:des INC SEMICOMA 
+		|(Designator_statement4) Designator:des DEC SEMICOMA
+		|(Designator_statement5) FuncCall:f LPAREN RPAREN SEMICOMA
+		|(Matched2) READ LPAREN Designator:des RPAREN SEMICOMA
+		|(Matched3) PRINT LPAREN Expr:e RPAREN SEMICOMA
+		|(Matched4) PRINT LPAREN Expr:e COMMA NUMBER:width RPAREN SEMICOMA
+		;
+
+DesignatorLeft::=(Designator_left)Expr:e //Ovde sam pogresno nazvala to je DesignatorRight
+				|(Designator_error)error:l//Ovde sam promenila jer sam imala da se greska detektuje u celom izrazu a ne samo u iskazu sa desne strane dodele vrednosti.
+				{:parser.report_error("Uspesan oporavak do ; pri dodeli vrednosti u liniji " + lleft,null); :}
+				;
+				
+FuncCall::=(Func_des)Designator:func;	
+
+Designator::=(Designator2)DesignatorArray:darr Expr:e RBRACKET
+			|(Designator3)IDENT:name
+			;
+DesignatorArray::=(DesignatorArray) Designator:des LBRACKET;
+				 
+
+Expr::=(Expr1)Expr:e Addop Term:t
+	  |(Expr2)Term:t
+	  |(Expr3)SUB Term:t
+	  ;
+
+Term::=(Term1)Term:t Mulop:op Factor:f
+	  |(Term2)Factor:f
+	  ;
+	  
+Factor::=(Factor1)NUMBER:value
+		|(Factor2)CHARCONST:value
+		|(Factor3)BOOLCONST:value
+		|(Factor5)LPAREN Expr:e RPAREN
+		|(Factor7)NEW Type:t LBRACKET Expr:e RBRACKET
+		|(Factor8) Designator:des
+		;
+
+Addop::=(Addop1) ADD
+	   |(Addop2) SUB
+	   ;
+
+Mulop::=(Mulop_mull) MUL
+	   |(Mulop_div) DIV
+	   |(Mulop_mod) MOD
+	   ;
+
+
+
+

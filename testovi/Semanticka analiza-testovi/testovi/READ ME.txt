@@ -1,0 +1,29 @@
+TestIspravno:Ideja je obuhvatiti sve smene koje moj prevodilac prepoznaje.
+
+TestNesipravno1:
+1.Metoda main nije deklarisana.
+2.Ime nije deklarisano pre prvog koriscenja.
+3.Ime ne sme biti deklarisano vise puta u okviru istog opsega.
+4.Smena za const :da tip promenljive ne odgovara tipu vrednosti koja se dodeljuje.
+
+TestNeispravno2:
+1.Indetifikator tipa mora predstavljati tip.
+2.Designator za dodelu vrednosti nije promenljiva ili element niza ,ja sam stavila da je konst.
+3.Designator za dodelu vrednosti nije kompatabilan sa tipom izraza koji mu se dodeljuje.
+
+TestNeispravno3:
+1.Kod ++ i -- designator mora biti promenljiva ili element niza.
+2.Takodje designator mora biti tipa int :probacemo sa char i sa bool;
+3.Poziv funkcije da nije funkcija.
+
+	     
+TestNeispravno4:
+1.read :Designator mora biti promeljiva ili element niza.
+2.read:Designator mora biti int,bool,char ja cu staviti da je tipa niz .
+3.print:Designator mora biti int,bool,char ja cu staviti da je tipa niz .Meni u print naredbi ne moze da se nadje designator pa to ne mogu da testiram.
+4.Expr=-Term:term mora biti tipa int ja sam stavila da je char;
+
+TestNesipravno5:
+1.Mulop :oba operanda moraju biti tipa int.
+2.new Array:expr za broj elemenata niza mora biti tipa int.
+3.Addop :oba operanda moraju biti tipa int.

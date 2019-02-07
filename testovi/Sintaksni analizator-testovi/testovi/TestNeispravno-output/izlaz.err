@@ -1,0 +1,7 @@
+Leksicka greska: Niz karaktera: '$' nije prepoznat na liniji: 9,u koloni: 18.
+
+Sintaksna greska na liniji 9
+Uspesan oporavak do prvog ; ili sledeceg ,  pri deklaraciji globalne promenljive u liniji 9
+
+Sintaksna greska na liniji 19
+Uspesan oporavak do ; pri dodeli vrednosti u liniji 19

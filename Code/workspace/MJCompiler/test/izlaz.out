@@ -1,0 +1,1017 @@
+#3 program
+#17 test301
+#2 const
+#17 int
+#17 jedan
+#45 =
+#19 1
+#36 ;
+#2 const
+#17 int
+#17 pet
+#45 =
+#19 5
+#36 ;
+#17 int
+#17 niz
+#41 [
+#42 ]
+#36 ;
+#17 char
+#17 nizch
+#41 [
+#42 ]
+#36 ;
+#43 {
+#12 void
+#17 main
+#39 (
+#40 )
+#17 int
+#17 bodovi
+#36 ;
+#43 {
+#17 bodovi
+#45 =
+#19 0
+#36 ;
+#17 bodovi
+#34 ++
+#36 ;
+#17 bodovi
+#45 =
+#17 bodovi
+#21 +
+#17 jedan
+#36 ;
+#17 bodovi
+#45 =
+#17 bodovi
+#23 *
+#17 pet
+#36 ;
+#17 bodovi
+#35 --
+#36 ;
+#9 print
+#39 (
+#17 bodovi
+#40 )
+#36 ;
+#17 niz
+#45 =
+#8 new
+#17 int
+#41 [
+#19 2
+#42 ]
+#36 ;
+#17 niz
+#41 [
+#19 0
+#42 ]
+#45 =
+#17 pet
+#36 ;
+#17 niz
+#41 [
+#19 1
+#42 ]
+#45 =
+#19 10
+#36 ;
+#17 bodovi
+#45 =
+#17 niz
+#41 [
+#19 1
+#42 ]
+#24 /
+#17 niz
+#41 [
+#19 0
+#42 ]
+#36 ;
+#9 print
+#39 (
+#17 bodovi
+#40 )
+#36 ;
+#9 print
+#39 (
+#17 niz
+#41 [
+#19 1
+#42 ]
+#40 )
+#36 ;
+#17 nizch
+#45 =
+#8 new
+#17 char
+#41 [
+#19 3
+#42 ]
+#36 ;
+#17 nizch
+#41 [
+#19 0
+#42 ]
+#45 =
+#20 a
+#36 ;
+#17 nizch
+#41 [
+#17 jedan
+#42 ]
+#45 =
+#20 b
+#36 ;
+#17 nizch
+#41 [
+#17 pet
+#22 -
+#19 3
+#42 ]
+#45 =
+#20 c
+#36 ;
+#9 print
+#39 (
+#17 nizch
+#41 [
+#19 2
+#22 -
+#19 1
+#42 ]
+#40 )
+#36 ;
+#9 print
+#39 (
+#17 nizch
+#41 [
+#17 jedan
+#23 *
+#19 2
+#42 ]
+#40 )
+#36 ;
+#17 bodovi
+#45 =
+#17 bodovi
+#21 +
+#39 (
+#39 (
+#17 pet
+#23 *
+#17 jedan
+#22 -
+#19 1
+#40 )
+#23 *
+#19 2
+#22 -
+#39 (
+#19 3
+#25 %
+#19 2
+#21 +
+#19 3
+#23 *
+#19 2
+#22 -
+#19 3
+#40 )
+#22 -
+#19 1
+#23 *
+#19 0
+#40 )
+#36 ;
+#9 print
+#39 (
+#17 bodovi
+#40 )
+#36 ;
+#10 read
+#39 (
+#17 bodovi
+#40 )
+#36 ;
+#17 bodovi
+#45 =
+#17 bodovi
+#21 +
+#19 1
+#36 ;
+#9 print
+#39 (
+#17 bodovi
+#40 )
+#36 ;
+#44 }
+#44 }
+Parsiranje uspesno zavrseno!
+Deklarisana simbolicka konstana jedan na liniji 5.Obj cvor: Con jedan: int, 1, 0
+Deklarisana simbolicka konstana pet na liniji 6.Obj cvor: Con pet: int, 5, 0
+Deklarisana globalna promenljiva niz na liniji 8.Obj cvor: Var niz: Arr of int, 0, 0
+Deklarisana globalna promenljiva nizch na liniji 10.Obj cvor: Var nizch: Arr of char, 1, 0
+Detektovana void main() funkcija na liniji 13.
+Deklarisana lokalna promenljiva bodovi na liniji 13.Obj cvor: Var bodovi: int, 0, 1
+Simbol bodovi je pronadjen na liniji 16.Obj cvor: Var bodovi: int, 0, 1
+Simbol bodovi je pronadjen na liniji 17.Obj cvor: Var bodovi: int, 0, 1
+Simbol bodovi je pronadjen na liniji 18.Obj cvor: Var bodovi: int, 0, 1
+Simbol bodovi je pronadjen na liniji 18.Obj cvor: Var bodovi: int, 0, 1
+Simbol jedan je pronadjen na liniji 18.Obj cvor: Con jedan: int, 1, 0
+Simbol bodovi je pronadjen na liniji 19.Obj cvor: Var bodovi: int, 0, 1
+Simbol bodovi je pronadjen na liniji 19.Obj cvor: Var bodovi: int, 0, 1
+Simbol pet je pronadjen na liniji 19.Obj cvor: Con pet: int, 5, 0
+Simbol bodovi je pronadjen na liniji 20.Obj cvor: Var bodovi: int, 0, 1
+Simbol bodovi je pronadjen na liniji 21.Obj cvor: Var bodovi: int, 0, 1
+Simbol niz je pronadjen na liniji 24.Obj cvor: Var niz: Arr of int, 0, 0
+Simbol niz je pronadjen na liniji 25.Obj cvor: Var niz: Arr of int, 0, 0
+Simbol pet je pronadjen na liniji 25.Obj cvor: Con pet: int, 5, 0
+Simbol niz je pronadjen na liniji 26.Obj cvor: Var niz: Arr of int, 0, 0
+Simbol bodovi je pronadjen na liniji 27.Obj cvor: Var bodovi: int, 0, 1
+Simbol niz je pronadjen na liniji 27.Obj cvor: Var niz: Arr of int, 0, 0
+Simbol niz je pronadjen na liniji 27.Obj cvor: Var niz: Arr of int, 0, 0
+Simbol bodovi je pronadjen na liniji 28.Obj cvor: Var bodovi: int, 0, 1
+Simbol niz je pronadjen na liniji 29.Obj cvor: Var niz: Arr of int, 0, 0
+Simbol nizch je pronadjen na liniji 32.Obj cvor: Var nizch: Arr of char, 1, 0
+Simbol nizch je pronadjen na liniji 33.Obj cvor: Var nizch: Arr of char, 1, 0
+Simbol nizch je pronadjen na liniji 34.Obj cvor: Var nizch: Arr of char, 1, 0
+Simbol jedan je pronadjen na liniji 34.Obj cvor: Con jedan: int, 1, 0
+Simbol nizch je pronadjen na liniji 35.Obj cvor: Var nizch: Arr of char, 1, 0
+Simbol pet je pronadjen na liniji 35.Obj cvor: Con pet: int, 5, 0
+Simbol nizch je pronadjen na liniji 36.Obj cvor: Var nizch: Arr of char, 1, 0
+Simbol nizch je pronadjen na liniji 37.Obj cvor: Var nizch: Arr of char, 1, 0
+Simbol jedan je pronadjen na liniji 37.Obj cvor: Con jedan: int, 1, 0
+Simbol bodovi je pronadjen na liniji 40.Obj cvor: Var bodovi: int, 0, 1
+Simbol bodovi je pronadjen na liniji 40.Obj cvor: Var bodovi: int, 0, 1
+Simbol pet je pronadjen na liniji 40.Obj cvor: Con pet: int, 5, 0
+Simbol jedan je pronadjen na liniji 40.Obj cvor: Con jedan: int, 1, 0
+Simbol bodovi je pronadjen na liniji 41.Obj cvor: Var bodovi: int, 0, 1
+Simbol bodovi je pronadjen na liniji 44.Obj cvor: Var bodovi: int, 0, 1
+Simbol bodovi je pronadjen na liniji 45.Obj cvor: Var bodovi: int, 0, 1
+Simbol bodovi je pronadjen na liniji 45.Obj cvor: Var bodovi: int, 0, 1
+Simbol bodovi je pronadjen na liniji 46.Obj cvor: Var bodovi: int, 0, 1
+=====================SYMBOL TABLE DUMP=========================
+Type int: int, -1, -1 
+Type char: char, -1, -1 
+Con eol: char, 10, 0 
+Con null: Class [], 0, 0 
+Meth chr: char, 0, 1 
+   Var i: int, 0, 1 
+
+Meth ord: int, 0, 1 
+   Var ch: char, 0, 1 
+
+Meth len: int, 0, 1 
+   Var arr: Arr of notype, 0, 1 
+
+Type bool: bool, -1, -1 
+Prog test301: notype, 0, 1 
+   Con jedan: int, 1, 0 
+   Con pet: int, 5, 0 
+   Var niz: Arr of int, 0, 0 
+   Var nizch: Arr of char, 1, 0 
+   Meth main: notype, 0, 0 
+      Var bodovi: int, 0, 1 
+
+
+
+Ulazni program nema semantickih gresaka
+Uspesno izvrsen ispis koda u obj file
+Programm(
+  Program_name(
+   test301
+  ) [Program_name]
+  Declaration_list(
+    Declaration_list(
+      Declaration_list(
+        Declaration_list(
+          No_declaration_list(
+          ) [No_declaration_list]
+          Declaration_part_const(
+            Const_decl(
+              Typee(
+               int
+              ) [Typee]
+              Const_list2(
+                Const_number(
+                 jedan
+                 1
+                ) [Const_number]
+              ) [Const_list2]
+            ) [Const_decl]
+          ) [Declaration_part_const]
+        ) [Declaration_list]
+        Declaration_part_const(
+          Const_decl(
+            Typee(
+             int
+            ) [Typee]
+            Const_list2(
+              Const_number(
+               pet
+               5
+              ) [Const_number]
+            ) [Const_list2]
+          ) [Const_decl]
+        ) [Declaration_part_const]
+      ) [Declaration_list]
+      Declaration_part_global(
+        Typee(
+         int
+        ) [Typee]
+        Global_var_decl1(
+          Global_var_list2(
+            Global_var_array_id(
+             niz
+            ) [Global_var_array_id]
+          ) [Global_var_list2]
+        ) [Global_var_decl1]
+      ) [Declaration_part_global]
+    ) [Declaration_list]
+    Declaration_part_global(
+      Typee(
+       char
+      ) [Typee]
+      Global_var_decl1(
+        Global_var_list2(
+          Global_var_array_id(
+           nizch
+          ) [Global_var_array_id]
+        ) [Global_var_list2]
+      ) [Global_var_decl1]
+    ) [Declaration_part_global]
+  ) [Declaration_list]
+  Func_dec1(
+    Func_dec2(
+    ) [Func_dec2]
+    Function_decl(
+      FunctionStart1(
+        Func_void2(
+         main
+        ) [Func_void2]
+        Var_decl_list(
+          No_var_decl_list(
+          ) [No_var_decl_list]
+          Var_decl(
+            Typee(
+             int
+            ) [Typee]
+            Var_list2(
+              Var_part1(
+               bodovi
+              ) [Var_part1]
+            ) [Var_list2]
+          ) [Var_decl]
+        ) [Var_decl_list]
+      ) [FunctionStart1]
+      Statement_list(
+        Statement_list(
+          Statement_list(
+            Statement_list(
+              Statement_list(
+                Statement_list(
+                  Statement_list(
+                    Statement_list(
+                      Statement_list(
+                        Statement_list(
+                          Statement_list(
+                            Statement_list(
+                              Statement_list(
+                                Statement_list(
+                                  Statement_list(
+                                    Statement_list(
+                                      Statement_list(
+                                        Statement_list(
+                                          Statement_list(
+                                            Statement_list(
+                                              Statement_list(
+                                                Statement_list(
+                                                  Statement_list(
+                                                    No_statement_list(
+                                                    ) [No_statement_list]
+                                                    Matched1(
+                                                      Designator3(
+                                                       bodovi
+                                                      ) [Designator3]
+                                                      Designator_left(
+                                                        Expr2(
+                                                          Term2(
+                                                            Factor1(
+                                                             0
+                                                            ) [Factor1]
+                                                          ) [Term2]
+                                                        ) [Expr2]
+                                                      ) [Designator_left]
+                                                    ) [Matched1]
+                                                  ) [Statement_list]
+                                                  Designator_statement3(
+                                                    Designator3(
+                                                     bodovi
+                                                    ) [Designator3]
+                                                  ) [Designator_statement3]
+                                                ) [Statement_list]
+                                                Matched1(
+                                                  Designator3(
+                                                   bodovi
+                                                  ) [Designator3]
+                                                  Designator_left(
+                                                    Expr1(
+                                                      Expr2(
+                                                        Term2(
+                                                          Factor8(
+                                                            Designator3(
+                                                             bodovi
+                                                            ) [Designator3]
+                                                          ) [Factor8]
+                                                        ) [Term2]
+                                                      ) [Expr2]
+                                                      Addop1(
+                                                      ) [Addop1]
+                                                      Term2(
+                                                        Factor8(
+                                                          Designator3(
+                                                           jedan
+                                                          ) [Designator3]
+                                                        ) [Factor8]
+                                                      ) [Term2]
+                                                    ) [Expr1]
+                                                  ) [Designator_left]
+                                                ) [Matched1]
+                                              ) [Statement_list]
+                                              Matched1(
+                                                Designator3(
+                                                 bodovi
+                                                ) [Designator3]
+                                                Designator_left(
+                                                  Expr2(
+                                                    Term1(
+                                                      Term2(
+                                                        Factor8(
+                                                          Designator3(
+                                                           bodovi
+                                                          ) [Designator3]
+                                                        ) [Factor8]
+                                                      ) [Term2]
+                                                      Mulop_mull(
+                                                      ) [Mulop_mull]
+                                                      Factor8(
+                                                        Designator3(
+                                                         pet
+                                                        ) [Designator3]
+                                                      ) [Factor8]
+                                                    ) [Term1]
+                                                  ) [Expr2]
+                                                ) [Designator_left]
+                                              ) [Matched1]
+                                            ) [Statement_list]
+                                            Designator_statement4(
+                                              Designator3(
+                                               bodovi
+                                              ) [Designator3]
+                                            ) [Designator_statement4]
+                                          ) [Statement_list]
+                                          Matched3(
+                                            Expr2(
+                                              Term2(
+                                                Factor8(
+                                                  Designator3(
+                                                   bodovi
+                                                  ) [Designator3]
+                                                ) [Factor8]
+                                              ) [Term2]
+                                            ) [Expr2]
+                                          ) [Matched3]
+                                        ) [Statement_list]
+                                        Matched1(
+                                          Designator3(
+                                           niz
+                                          ) [Designator3]
+                                          Designator_left(
+                                            Expr2(
+                                              Term2(
+                                                Factor7(
+                                                  Typee(
+                                                   int
+                                                  ) [Typee]
+                                                  Expr2(
+                                                    Term2(
+                                                      Factor1(
+                                                       2
+                                                      ) [Factor1]
+                                                    ) [Term2]
+                                                  ) [Expr2]
+                                                ) [Factor7]
+                                              ) [Term2]
+                                            ) [Expr2]
+                                          ) [Designator_left]
+                                        ) [Matched1]
+                                      ) [Statement_list]
+                                      Matched1(
+                                        Designator2(
+                                          DesignatorArray(
+                                            Designator3(
+                                             niz
+                                            ) [Designator3]
+                                          ) [DesignatorArray]
+                                          Expr2(
+                                            Term2(
+                                              Factor1(
+                                               0
+                                              ) [Factor1]
+                                            ) [Term2]
+                                          ) [Expr2]
+                                        ) [Designator2]
+                                        Designator_left(
+                                          Expr2(
+                                            Term2(
+                                              Factor8(
+                                                Designator3(
+                                                 pet
+                                                ) [Designator3]
+                                              ) [Factor8]
+                                            ) [Term2]
+                                          ) [Expr2]
+                                        ) [Designator_left]
+                                      ) [Matched1]
+                                    ) [Statement_list]
+                                    Matched1(
+                                      Designator2(
+                                        DesignatorArray(
+                                          Designator3(
+                                           niz
+                                          ) [Designator3]
+                                        ) [DesignatorArray]
+                                        Expr2(
+                                          Term2(
+                                            Factor1(
+                                             1
+                                            ) [Factor1]
+                                          ) [Term2]
+                                        ) [Expr2]
+                                      ) [Designator2]
+                                      Designator_left(
+                                        Expr2(
+                                          Term2(
+                                            Factor1(
+                                             10
+                                            ) [Factor1]
+                                          ) [Term2]
+                                        ) [Expr2]
+                                      ) [Designator_left]
+                                    ) [Matched1]
+                                  ) [Statement_list]
+                                  Matched1(
+                                    Designator3(
+                                     bodovi
+                                    ) [Designator3]
+                                    Designator_left(
+                                      Expr2(
+                                        Term1(
+                                          Term2(
+                                            Factor8(
+                                              Designator2(
+                                                DesignatorArray(
+                                                  Designator3(
+                                                   niz
+                                                  ) [Designator3]
+                                                ) [DesignatorArray]
+                                                Expr2(
+                                                  Term2(
+                                                    Factor1(
+                                                     1
+                                                    ) [Factor1]
+                                                  ) [Term2]
+                                                ) [Expr2]
+                                              ) [Designator2]
+                                            ) [Factor8]
+                                          ) [Term2]
+                                          Mulop_div(
+                                          ) [Mulop_div]
+                                          Factor8(
+                                            Designator2(
+                                              DesignatorArray(
+                                                Designator3(
+                                                 niz
+                                                ) [Designator3]
+                                              ) [DesignatorArray]
+                                              Expr2(
+                                                Term2(
+                                                  Factor1(
+                                                   0
+                                                  ) [Factor1]
+                                                ) [Term2]
+                                              ) [Expr2]
+                                            ) [Designator2]
+                                          ) [Factor8]
+                                        ) [Term1]
+                                      ) [Expr2]
+                                    ) [Designator_left]
+                                  ) [Matched1]
+                                ) [Statement_list]
+                                Matched3(
+                                  Expr2(
+                                    Term2(
+                                      Factor8(
+                                        Designator3(
+                                         bodovi
+                                        ) [Designator3]
+                                      ) [Factor8]
+                                    ) [Term2]
+                                  ) [Expr2]
+                                ) [Matched3]
+                              ) [Statement_list]
+                              Matched3(
+                                Expr2(
+                                  Term2(
+                                    Factor8(
+                                      Designator2(
+                                        DesignatorArray(
+                                          Designator3(
+                                           niz
+                                          ) [Designator3]
+                                        ) [DesignatorArray]
+                                        Expr2(
+                                          Term2(
+                                            Factor1(
+                                             1
+                                            ) [Factor1]
+                                          ) [Term2]
+                                        ) [Expr2]
+                                      ) [Designator2]
+                                    ) [Factor8]
+                                  ) [Term2]
+                                ) [Expr2]
+                              ) [Matched3]
+                            ) [Statement_list]
+                            Matched1(
+                              Designator3(
+                               nizch
+                              ) [Designator3]
+                              Designator_left(
+                                Expr2(
+                                  Term2(
+                                    Factor7(
+                                      Typee(
+                                       char
+                                      ) [Typee]
+                                      Expr2(
+                                        Term2(
+                                          Factor1(
+                                           3
+                                          ) [Factor1]
+                                        ) [Term2]
+                                      ) [Expr2]
+                                    ) [Factor7]
+                                  ) [Term2]
+                                ) [Expr2]
+                              ) [Designator_left]
+                            ) [Matched1]
+                          ) [Statement_list]
+                          Matched1(
+                            Designator2(
+                              DesignatorArray(
+                                Designator3(
+                                 nizch
+                                ) [Designator3]
+                              ) [DesignatorArray]
+                              Expr2(
+                                Term2(
+                                  Factor1(
+                                   0
+                                  ) [Factor1]
+                                ) [Term2]
+                              ) [Expr2]
+                            ) [Designator2]
+                            Designator_left(
+                              Expr2(
+                                Term2(
+                                  Factor2(
+                                   a
+                                  ) [Factor2]
+                                ) [Term2]
+                              ) [Expr2]
+                            ) [Designator_left]
+                          ) [Matched1]
+                        ) [Statement_list]
+                        Matched1(
+                          Designator2(
+                            DesignatorArray(
+                              Designator3(
+                               nizch
+                              ) [Designator3]
+                            ) [DesignatorArray]
+                            Expr2(
+                              Term2(
+                                Factor8(
+                                  Designator3(
+                                   jedan
+                                  ) [Designator3]
+                                ) [Factor8]
+                              ) [Term2]
+                            ) [Expr2]
+                          ) [Designator2]
+                          Designator_left(
+                            Expr2(
+                              Term2(
+                                Factor2(
+                                 b
+                                ) [Factor2]
+                              ) [Term2]
+                            ) [Expr2]
+                          ) [Designator_left]
+                        ) [Matched1]
+                      ) [Statement_list]
+                      Matched1(
+                        Designator2(
+                          DesignatorArray(
+                            Designator3(
+                             nizch
+                            ) [Designator3]
+                          ) [DesignatorArray]
+                          Expr1(
+                            Expr2(
+                              Term2(
+                                Factor8(
+                                  Designator3(
+                                   pet
+                                  ) [Designator3]
+                                ) [Factor8]
+                              ) [Term2]
+                            ) [Expr2]
+                            Addop2(
+                            ) [Addop2]
+                            Term2(
+                              Factor1(
+                               3
+                              ) [Factor1]
+                            ) [Term2]
+                          ) [Expr1]
+                        ) [Designator2]
+                        Designator_left(
+                          Expr2(
+                            Term2(
+                              Factor2(
+                               c
+                              ) [Factor2]
+                            ) [Term2]
+                          ) [Expr2]
+                        ) [Designator_left]
+                      ) [Matched1]
+                    ) [Statement_list]
+                    Matched3(
+                      Expr2(
+                        Term2(
+                          Factor8(
+                            Designator2(
+                              DesignatorArray(
+                                Designator3(
+                                 nizch
+                                ) [Designator3]
+                              ) [DesignatorArray]
+                              Expr1(
+                                Expr2(
+                                  Term2(
+                                    Factor1(
+                                     2
+                                    ) [Factor1]
+                                  ) [Term2]
+                                ) [Expr2]
+                                Addop2(
+                                ) [Addop2]
+                                Term2(
+                                  Factor1(
+                                   1
+                                  ) [Factor1]
+                                ) [Term2]
+                              ) [Expr1]
+                            ) [Designator2]
+                          ) [Factor8]
+                        ) [Term2]
+                      ) [Expr2]
+                    ) [Matched3]
+                  ) [Statement_list]
+                  Matched3(
+                    Expr2(
+                      Term2(
+                        Factor8(
+                          Designator2(
+                            DesignatorArray(
+                              Designator3(
+                               nizch
+                              ) [Designator3]
+                            ) [DesignatorArray]
+                            Expr2(
+                              Term1(
+                                Term2(
+                                  Factor8(
+                                    Designator3(
+                                     jedan
+                                    ) [Designator3]
+                                  ) [Factor8]
+                                ) [Term2]
+                                Mulop_mull(
+                                ) [Mulop_mull]
+                                Factor1(
+                                 2
+                                ) [Factor1]
+                              ) [Term1]
+                            ) [Expr2]
+                          ) [Designator2]
+                        ) [Factor8]
+                      ) [Term2]
+                    ) [Expr2]
+                  ) [Matched3]
+                ) [Statement_list]
+                Matched1(
+                  Designator3(
+                   bodovi
+                  ) [Designator3]
+                  Designator_left(
+                    Expr1(
+                      Expr2(
+                        Term2(
+                          Factor8(
+                            Designator3(
+                             bodovi
+                            ) [Designator3]
+                          ) [Factor8]
+                        ) [Term2]
+                      ) [Expr2]
+                      Addop1(
+                      ) [Addop1]
+                      Term2(
+                        Factor5(
+                          Expr1(
+                            Expr1(
+                              Expr2(
+                                Term1(
+                                  Term2(
+                                    Factor5(
+                                      Expr1(
+                                        Expr2(
+                                          Term1(
+                                            Term2(
+                                              Factor8(
+                                                Designator3(
+                                                 pet
+                                                ) [Designator3]
+                                              ) [Factor8]
+                                            ) [Term2]
+                                            Mulop_mull(
+                                            ) [Mulop_mull]
+                                            Factor8(
+                                              Designator3(
+                                               jedan
+                                              ) [Designator3]
+                                            ) [Factor8]
+                                          ) [Term1]
+                                        ) [Expr2]
+                                        Addop2(
+                                        ) [Addop2]
+                                        Term2(
+                                          Factor1(
+                                           1
+                                          ) [Factor1]
+                                        ) [Term2]
+                                      ) [Expr1]
+                                    ) [Factor5]
+                                  ) [Term2]
+                                  Mulop_mull(
+                                  ) [Mulop_mull]
+                                  Factor1(
+                                   2
+                                  ) [Factor1]
+                                ) [Term1]
+                              ) [Expr2]
+                              Addop2(
+                              ) [Addop2]
+                              Term2(
+                                Factor5(
+                                  Expr1(
+                                    Expr1(
+                                      Expr2(
+                                        Term1(
+                                          Term2(
+                                            Factor1(
+                                             3
+                                            ) [Factor1]
+                                          ) [Term2]
+                                          Mulop_mod(
+                                          ) [Mulop_mod]
+                                          Factor1(
+                                           2
+                                          ) [Factor1]
+                                        ) [Term1]
+                                      ) [Expr2]
+                                      Addop1(
+                                      ) [Addop1]
+                                      Term1(
+                                        Term2(
+                                          Factor1(
+                                           3
+                                          ) [Factor1]
+                                        ) [Term2]
+                                        Mulop_mull(
+                                        ) [Mulop_mull]
+                                        Factor1(
+                                         2
+                                        ) [Factor1]
+                                      ) [Term1]
+                                    ) [Expr1]
+                                    Addop2(
+                                    ) [Addop2]
+                                    Term2(
+                                      Factor1(
+                                       3
+                                      ) [Factor1]
+                                    ) [Term2]
+                                  ) [Expr1]
+                                ) [Factor5]
+                              ) [Term2]
+                            ) [Expr1]
+                            Addop2(
+                            ) [Addop2]
+                            Term1(
+                              Term2(
+                                Factor1(
+                                 1
+                                ) [Factor1]
+                              ) [Term2]
+                              Mulop_mull(
+                              ) [Mulop_mull]
+                              Factor1(
+                               0
+                              ) [Factor1]
+                            ) [Term1]
+                          ) [Expr1]
+                        ) [Factor5]
+                      ) [Term2]
+                    ) [Expr1]
+                  ) [Designator_left]
+                ) [Matched1]
+              ) [Statement_list]
+              Matched3(
+                Expr2(
+                  Term2(
+                    Factor8(
+                      Designator3(
+                       bodovi
+                      ) [Designator3]
+                    ) [Factor8]
+                  ) [Term2]
+                ) [Expr2]
+              ) [Matched3]
+            ) [Statement_list]
+            Matched2(
+              Designator3(
+               bodovi
+              ) [Designator3]
+            ) [Matched2]
+          ) [Statement_list]
+          Matched1(
+            Designator3(
+             bodovi
+            ) [Designator3]
+            Designator_left(
+              Expr1(
+                Expr2(
+                  Term2(
+                    Factor8(
+                      Designator3(
+                       bodovi
+                      ) [Designator3]
+                    ) [Factor8]
+                  ) [Term2]
+                ) [Expr2]
+                Addop1(
+                ) [Addop1]
+                Term2(
+                  Factor1(
+                   1
+                  ) [Factor1]
+                ) [Term2]
+              ) [Expr1]
+            ) [Designator_left]
+          ) [Matched1]
+        ) [Statement_list]
+        Matched3(
+          Expr2(
+            Term2(
+              Factor8(
+                Designator3(
+                 bodovi
+                ) [Designator3]
+              ) [Factor8]
+            ) [Term2]
+          ) [Expr2]
+        ) [Matched3]
+      ) [Statement_list]
+    ) [Function_decl]
+  ) [Func_dec1]
+) [Programm]
+===================================

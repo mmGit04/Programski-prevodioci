@@ -1,0 +1,5 @@
+Semanticka greska(28):Simbol mora biti promenljiva ili element niza.
+Semanticka greska(29):Simbol mora biti int,char ili bool tipa.
+Konteksni uslov nije ispunjen:(38):Operand nije int tipa.
+Semantcika greska(38):Tipovi nisu kompatabilni.
+Semanticka greska(39): x nije deklarisano pre koriscenja.

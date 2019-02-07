@@ -1,0 +1,32 @@
+program MJProgram
+	const int x=16; //Ovo je komentar;
+	const bool s=false;
+	const char b='b';
+	bool y;
+	
+	char M;
+	int proba[];
+	int brojac;
+	
+{
+	
+	void k () int c; {
+		c = 62;
+		proba=new int[4];
+		y=true;
+		a='c';		
+	
+		}
+
+	
+	void main() {
+	    read(brojac);
+	    print(3+4);
+		print(393,2);
+		brojac--;
+		brojac++;
+		brojac=7*8 % 9+5-4/3;
+		k();
+		
+	}
+}

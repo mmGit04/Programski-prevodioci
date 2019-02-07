@@ -1,0 +1,48 @@
+program MJProgram
+	const int x='c'; //ne odgovara tip vrednosti tipu const;
+	const bool notT=12;//ne odgovara tip vrednosti tipu const
+	const bool T=true;
+	const char b=false;//ne odgovara tip vrednosti tipu const
+	
+	bool y;
+	char a;
+	char M;
+	bool istoIme;
+	char istoIme;
+	int proba[];
+	char karak[];
+	int brojac;
+	int pom;
+	
+{
+	
+	void k () int c,q; char niz[]; int istoIme; {
+		nijedeklarisano = 62;
+		proba=new int[4];
+		y=true;
+		a='c';	
+		a=b;
+	
+		}
+
+	
+	void main1() {
+	    read(brojac);
+	    read(y);
+	    read(M);
+	    read(proba[1]);
+	    print('m');
+		print(true);
+		print(4+5/3,2);
+		brojac--;
+		brojac++;
+		brojac=7*(8 % 9+5-4)/3;
+		pom=-3;
+		pom=x;
+		y=notT;
+		proba[2]=3+5;
+		
+		k();
+		
+	}
+}

@@ -1,0 +1,9 @@
+Konteksni uslov nije ispunjen(2): Konstanta x nije char tipa.
+Konteksni uslov nije ispunjen(3): Konstanta notT nije int tipa.
+Konteksni uslov nije ispunjen(5): Konstanta b nije bool tipa.
+Semanticka greska(11): istoIme je vec deklarisano.
+Semanticka greska(20): nijedeklarisano nije deklarisano pre koriscenja.
+Semanticka greska(24): b nije deklarisano pre koriscenja.
+Semanticka greska(41): x nije deklarisano pre koriscenja.
+Semanticka greska(42): notT nije deklarisano pre koriscenja.
+Semanticka greska: void main() nije pronadjeno.

@@ -1,0 +1,47 @@
+program MJProgram
+	const int konst=16; //Ovo je komentar;
+	const bool notT=false;
+	const bool T=true;
+	const char b='b';
+	
+	bool y;
+	char a;
+	char M;
+	int proba[];
+	char karak[];
+	int brojac;
+	int pom;
+	int nijeFunkcija;
+	
+{
+	
+	void k () int c,q; char niz[]; {
+		c = 62;
+		proba=new int[4];
+		y=true;
+		a='c';	
+		}
+
+	
+	void main() {
+	    read(brojac);
+	    read(y);
+	    read(M);
+	    read(proba[1]);
+	    print('m');
+		print(true);
+		print(4+5/3,2);
+		konst--;
+		konst++;
+		karak[1]++;
+		T--;
+		brojac=7*(8 % 9+5-4)/3;
+		pom=-3;
+	
+		nijeFunkcija();
+		proba[2]=3+5;
+		
+		k();
+		
+	}
+}

@@ -1,0 +1,2 @@
+TestIspravno:obuhvata sve terminale koji se trebaju prepoznati u nasoj gramatici za odabrani nivo .
+TestPogresno:ideja je ubaciti karakter kao sto je $ koji moj lexer ne prepoznaje.I takodje 'c9' koji lekser ne moze videti kao karakter pa nece prepoznati ' '  i npr indetifikator koji pocinje brojem koji on nece takodje prepoznati kao ceo indetifikator jer oni nisu tako napravljeni.

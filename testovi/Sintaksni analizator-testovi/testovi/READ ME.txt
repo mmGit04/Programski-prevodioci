@@ -1,0 +1,2 @@
+TestIspravno:Ideja je obuhvatiti sve smene koje moj prevodilac prepoznaje.
+TestNeispravno:Kod dodele vrednosti napravljena je sintaksna struktura koja je neispravna pa to treba da se prijavi kao greska.

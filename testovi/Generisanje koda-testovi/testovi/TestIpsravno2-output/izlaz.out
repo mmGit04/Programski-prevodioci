@@ -1,0 +1,670 @@
+#3 program
+#17 MJProgram
+#2 const
+#17 int
+#17 x
+#45 =
+#19 16
+#36 ;
+#2 const
+#17 bool
+#17 notT
+#45 =
+#18 false
+#36 ;
+#2 const
+#17 bool
+#17 T
+#45 =
+#18 true
+#36 ;
+#2 const
+#17 char
+#17 b
+#45 =
+#20 b
+#36 ;
+#17 bool
+#17 y
+#36 ;
+#17 char
+#17 a
+#36 ;
+#17 char
+#17 M
+#36 ;
+#17 int
+#17 proba
+#41 [
+#42 ]
+#36 ;
+#17 int
+#17 nizDodela
+#36 ;
+#17 char
+#17 karak
+#41 [
+#42 ]
+#36 ;
+#17 bool
+#17 tacnost
+#41 [
+#42 ]
+#36 ;
+#17 int
+#17 brojac
+#36 ;
+#17 int
+#17 pom
+#36 ;
+#43 {
+#12 void
+#17 main
+#39 (
+#40 )
+#43 {
+#17 proba
+#45 =
+#8 new
+#17 int
+#41 [
+#19 5
+#42 ]
+#36 ;
+#17 karak
+#45 =
+#8 new
+#17 char
+#41 [
+#19 2
+#42 ]
+#36 ;
+#17 tacnost
+#45 =
+#8 new
+#17 bool
+#41 [
+#19 1
+#42 ]
+#36 ;
+#17 proba
+#41 [
+#19 3
+#42 ]
+#45 =
+#19 2
+#36 ;
+#17 karak
+#41 [
+#19 1
+#42 ]
+#45 =
+#20 s
+#36 ;
+#17 tacnost
+#41 [
+#19 0
+#42 ]
+#45 =
+#18 true
+#36 ;
+#17 brojac
+#45 =
+#19 5
+#23 *
+#17 proba
+#41 [
+#19 3
+#42 ]
+#21 +
+#17 x
+#36 ;
+#17 a
+#45 =
+#17 karak
+#41 [
+#19 1
+#42 ]
+#36 ;
+#17 y
+#45 =
+#17 tacnost
+#41 [
+#19 0
+#42 ]
+#36 ;
+#44 }
+#44 }
+Parsiranje uspesno zavrseno!
+Deklarisana simbolicka konstana x na liniji 2.Obj cvor: Con x: int, 16, 0
+Deklarisana simbolicka konstana notT na liniji 3.Obj cvor: Con notT: bool, 0, 0
+Deklarisana simbolicka konstana T na liniji 4.Obj cvor: Con T: bool, 1, 0
+Deklarisana simbolicka konstana b na liniji 5.Obj cvor: Con b: char, 98, 0
+Deklarisana globalna promenljiva y na liniji 7.Obj cvor: Var y: bool, 0, 0
+Deklarisana globalna promenljiva a na liniji 8.Obj cvor: Var a: char, 1, 0
+Deklarisana globalna promenljiva M na liniji 9.Obj cvor: Var M: char, 2, 0
+Deklarisana globalna promenljiva proba na liniji 10.Obj cvor: Var proba: Arr of int, 3, 0
+Deklarisana globalna promenljiva nizDodela na liniji 11.Obj cvor: Var nizDodela: int, 4, 0
+Deklarisana globalna promenljiva karak na liniji 12.Obj cvor: Var karak: Arr of char, 5, 0
+Deklarisana globalna promenljiva tacnost na liniji 13.Obj cvor: Var tacnost: Arr of bool, 6, 0
+Deklarisana globalna promenljiva brojac na liniji 14.Obj cvor: Var brojac: int, 7, 0
+Deklarisana globalna promenljiva pom na liniji 15.Obj cvor: Var pom: int, 8, 0
+Detektovana void main() funkcija na liniji 18.
+Simbol proba je pronadjen na liniji 20.Obj cvor: Var proba: Arr of int, 3, 0
+Simbol karak je pronadjen na liniji 21.Obj cvor: Var karak: Arr of char, 5, 0
+Simbol tacnost je pronadjen na liniji 22.Obj cvor: Var tacnost: Arr of bool, 6, 0
+Simbol proba je pronadjen na liniji 24.Obj cvor: Var proba: Arr of int, 3, 0
+Simbol karak je pronadjen na liniji 25.Obj cvor: Var karak: Arr of char, 5, 0
+Simbol tacnost je pronadjen na liniji 26.Obj cvor: Var tacnost: Arr of bool, 6, 0
+Simbol brojac je pronadjen na liniji 28.Obj cvor: Var brojac: int, 7, 0
+Simbol proba je pronadjen na liniji 28.Obj cvor: Var proba: Arr of int, 3, 0
+Simbol x je pronadjen na liniji 28.Obj cvor: Con x: int, 16, 0
+Simbol a je pronadjen na liniji 29.Obj cvor: Var a: char, 1, 0
+Simbol karak je pronadjen na liniji 29.Obj cvor: Var karak: Arr of char, 5, 0
+Simbol y je pronadjen na liniji 30.Obj cvor: Var y: bool, 0, 0
+Simbol tacnost je pronadjen na liniji 30.Obj cvor: Var tacnost: Arr of bool, 6, 0
+=====================SYMBOL TABLE DUMP=========================
+Type int: int, -1, -1 
+Type char: char, -1, -1 
+Con eol: char, 10, 0 
+Con null: Class [], 0, 0 
+Meth chr: char, 0, 1 
+   Var i: int, 0, 1 
+
+Meth ord: int, 0, 1 
+   Var ch: char, 0, 1 
+
+Meth len: int, 0, 1 
+   Var arr: Arr of notype, 0, 1 
+
+Type bool: bool, -1, -1 
+Prog MJProgram: notype, 0, 1 
+   Con x: int, 16, 0 
+   Con notT: bool, 0, 0 
+   Con T: bool, 1, 0 
+   Con b: char, 98, 0 
+   Var y: bool, 0, 0 
+   Var a: char, 1, 0 
+   Var M: char, 2, 0 
+   Var proba: Arr of int, 3, 0 
+   Var nizDodela: int, 4, 0 
+   Var karak: Arr of char, 5, 0 
+   Var tacnost: Arr of bool, 6, 0 
+   Var brojac: int, 7, 0 
+   Var pom: int, 8, 0 
+   Meth main: notype, 0, 0 
+
+
+
+Ulazni program nema semantickih gresaka
+Uspesno izvrsen ispis koda u obj file
+Programm(
+  Program_name(
+   MJProgram
+  ) [Program_name]
+  Declaration_list(
+    Declaration_list(
+      Declaration_list(
+        Declaration_list(
+          Declaration_list(
+            Declaration_list(
+              Declaration_list(
+                Declaration_list(
+                  Declaration_list(
+                    Declaration_list(
+                      Declaration_list(
+                        Declaration_list(
+                          Declaration_list(
+                            No_declaration_list(
+                            ) [No_declaration_list]
+                            Declaration_part_const(
+                              Const_decl(
+                                Typee(
+                                 int
+                                ) [Typee]
+                                Const_list2(
+                                  Const_number(
+                                   x
+                                   16
+                                  ) [Const_number]
+                                ) [Const_list2]
+                              ) [Const_decl]
+                            ) [Declaration_part_const]
+                          ) [Declaration_list]
+                          Declaration_part_const(
+                            Const_decl(
+                              Typee(
+                               bool
+                              ) [Typee]
+                              Const_list2(
+                                Const_bool(
+                                 notT
+                                 false
+                                ) [Const_bool]
+                              ) [Const_list2]
+                            ) [Const_decl]
+                          ) [Declaration_part_const]
+                        ) [Declaration_list]
+                        Declaration_part_const(
+                          Const_decl(
+                            Typee(
+                             bool
+                            ) [Typee]
+                            Const_list2(
+                              Const_bool(
+                               T
+                               true
+                              ) [Const_bool]
+                            ) [Const_list2]
+                          ) [Const_decl]
+                        ) [Declaration_part_const]
+                      ) [Declaration_list]
+                      Declaration_part_const(
+                        Const_decl(
+                          Typee(
+                           char
+                          ) [Typee]
+                          Const_list2(
+                            Const_char(
+                             b
+                             b
+                            ) [Const_char]
+                          ) [Const_list2]
+                        ) [Const_decl]
+                      ) [Declaration_part_const]
+                    ) [Declaration_list]
+                    Declaration_part_global(
+                      Typee(
+                       bool
+                      ) [Typee]
+                      Global_var_decl1(
+                        Global_var_list2(
+                          Global_var_id(
+                           y
+                          ) [Global_var_id]
+                        ) [Global_var_list2]
+                      ) [Global_var_decl1]
+                    ) [Declaration_part_global]
+                  ) [Declaration_list]
+                  Declaration_part_global(
+                    Typee(
+                     char
+                    ) [Typee]
+                    Global_var_decl1(
+                      Global_var_list2(
+                        Global_var_id(
+                         a
+                        ) [Global_var_id]
+                      ) [Global_var_list2]
+                    ) [Global_var_decl1]
+                  ) [Declaration_part_global]
+                ) [Declaration_list]
+                Declaration_part_global(
+                  Typee(
+                   char
+                  ) [Typee]
+                  Global_var_decl1(
+                    Global_var_list2(
+                      Global_var_id(
+                       M
+                      ) [Global_var_id]
+                    ) [Global_var_list2]
+                  ) [Global_var_decl1]
+                ) [Declaration_part_global]
+              ) [Declaration_list]
+              Declaration_part_global(
+                Typee(
+                 int
+                ) [Typee]
+                Global_var_decl1(
+                  Global_var_list2(
+                    Global_var_array_id(
+                     proba
+                    ) [Global_var_array_id]
+                  ) [Global_var_list2]
+                ) [Global_var_decl1]
+              ) [Declaration_part_global]
+            ) [Declaration_list]
+            Declaration_part_global(
+              Typee(
+               int
+              ) [Typee]
+              Global_var_decl1(
+                Global_var_list2(
+                  Global_var_id(
+                   nizDodela
+                  ) [Global_var_id]
+                ) [Global_var_list2]
+              ) [Global_var_decl1]
+            ) [Declaration_part_global]
+          ) [Declaration_list]
+          Declaration_part_global(
+            Typee(
+             char
+            ) [Typee]
+            Global_var_decl1(
+              Global_var_list2(
+                Global_var_array_id(
+                 karak
+                ) [Global_var_array_id]
+              ) [Global_var_list2]
+            ) [Global_var_decl1]
+          ) [Declaration_part_global]
+        ) [Declaration_list]
+        Declaration_part_global(
+          Typee(
+           bool
+          ) [Typee]
+          Global_var_decl1(
+            Global_var_list2(
+              Global_var_array_id(
+               tacnost
+              ) [Global_var_array_id]
+            ) [Global_var_list2]
+          ) [Global_var_decl1]
+        ) [Declaration_part_global]
+      ) [Declaration_list]
+      Declaration_part_global(
+        Typee(
+         int
+        ) [Typee]
+        Global_var_decl1(
+          Global_var_list2(
+            Global_var_id(
+             brojac
+            ) [Global_var_id]
+          ) [Global_var_list2]
+        ) [Global_var_decl1]
+      ) [Declaration_part_global]
+    ) [Declaration_list]
+    Declaration_part_global(
+      Typee(
+       int
+      ) [Typee]
+      Global_var_decl1(
+        Global_var_list2(
+          Global_var_id(
+           pom
+          ) [Global_var_id]
+        ) [Global_var_list2]
+      ) [Global_var_decl1]
+    ) [Declaration_part_global]
+  ) [Declaration_list]
+  Func_dec1(
+    Func_dec2(
+    ) [Func_dec2]
+    Function_decl(
+      FunctionStart1(
+        Func_void2(
+         main
+        ) [Func_void2]
+        No_var_decl_list(
+        ) [No_var_decl_list]
+      ) [FunctionStart1]
+      Statement_list(
+        Statement_list(
+          Statement_list(
+            Statement_list(
+              Statement_list(
+                Statement_list(
+                  Statement_list(
+                    Statement_list(
+                      Statement_list(
+                        No_statement_list(
+                        ) [No_statement_list]
+                        Matched1(
+                          Designator3(
+                           proba
+                          ) [Designator3]
+                          Designator_left(
+                            Expr2(
+                              Term2(
+                                Factor7(
+                                  Typee(
+                                   int
+                                  ) [Typee]
+                                  Expr2(
+                                    Term2(
+                                      Factor1(
+                                       5
+                                      ) [Factor1]
+                                    ) [Term2]
+                                  ) [Expr2]
+                                ) [Factor7]
+                              ) [Term2]
+                            ) [Expr2]
+                          ) [Designator_left]
+                        ) [Matched1]
+                      ) [Statement_list]
+                      Matched1(
+                        Designator3(
+                         karak
+                        ) [Designator3]
+                        Designator_left(
+                          Expr2(
+                            Term2(
+                              Factor7(
+                                Typee(
+                                 char
+                                ) [Typee]
+                                Expr2(
+                                  Term2(
+                                    Factor1(
+                                     2
+                                    ) [Factor1]
+                                  ) [Term2]
+                                ) [Expr2]
+                              ) [Factor7]
+                            ) [Term2]
+                          ) [Expr2]
+                        ) [Designator_left]
+                      ) [Matched1]
+                    ) [Statement_list]
+                    Matched1(
+                      Designator3(
+                       tacnost
+                      ) [Designator3]
+                      Designator_left(
+                        Expr2(
+                          Term2(
+                            Factor7(
+                              Typee(
+                               bool
+                              ) [Typee]
+                              Expr2(
+                                Term2(
+                                  Factor1(
+                                   1
+                                  ) [Factor1]
+                                ) [Term2]
+                              ) [Expr2]
+                            ) [Factor7]
+                          ) [Term2]
+                        ) [Expr2]
+                      ) [Designator_left]
+                    ) [Matched1]
+                  ) [Statement_list]
+                  Matched1(
+                    Designator2(
+                      DesignatorArray(
+                        Designator3(
+                         proba
+                        ) [Designator3]
+                      ) [DesignatorArray]
+                      Expr2(
+                        Term2(
+                          Factor1(
+                           3
+                          ) [Factor1]
+                        ) [Term2]
+                      ) [Expr2]
+                    ) [Designator2]
+                    Designator_left(
+                      Expr2(
+                        Term2(
+                          Factor1(
+                           2
+                          ) [Factor1]
+                        ) [Term2]
+                      ) [Expr2]
+                    ) [Designator_left]
+                  ) [Matched1]
+                ) [Statement_list]
+                Matched1(
+                  Designator2(
+                    DesignatorArray(
+                      Designator3(
+                       karak
+                      ) [Designator3]
+                    ) [DesignatorArray]
+                    Expr2(
+                      Term2(
+                        Factor1(
+                         1
+                        ) [Factor1]
+                      ) [Term2]
+                    ) [Expr2]
+                  ) [Designator2]
+                  Designator_left(
+                    Expr2(
+                      Term2(
+                        Factor2(
+                         s
+                        ) [Factor2]
+                      ) [Term2]
+                    ) [Expr2]
+                  ) [Designator_left]
+                ) [Matched1]
+              ) [Statement_list]
+              Matched1(
+                Designator2(
+                  DesignatorArray(
+                    Designator3(
+                     tacnost
+                    ) [Designator3]
+                  ) [DesignatorArray]
+                  Expr2(
+                    Term2(
+                      Factor1(
+                       0
+                      ) [Factor1]
+                    ) [Term2]
+                  ) [Expr2]
+                ) [Designator2]
+                Designator_left(
+                  Expr2(
+                    Term2(
+                      Factor3(
+                       true
+                      ) [Factor3]
+                    ) [Term2]
+                  ) [Expr2]
+                ) [Designator_left]
+              ) [Matched1]
+            ) [Statement_list]
+            Matched1(
+              Designator3(
+               brojac
+              ) [Designator3]
+              Designator_left(
+                Expr1(
+                  Expr2(
+                    Term1(
+                      Term2(
+                        Factor1(
+                         5
+                        ) [Factor1]
+                      ) [Term2]
+                      Mulop_mull(
+                      ) [Mulop_mull]
+                      Factor8(
+                        Designator2(
+                          DesignatorArray(
+                            Designator3(
+                             proba
+                            ) [Designator3]
+                          ) [DesignatorArray]
+                          Expr2(
+                            Term2(
+                              Factor1(
+                               3
+                              ) [Factor1]
+                            ) [Term2]
+                          ) [Expr2]
+                        ) [Designator2]
+                      ) [Factor8]
+                    ) [Term1]
+                  ) [Expr2]
+                  Addop1(
+                  ) [Addop1]
+                  Term2(
+                    Factor8(
+                      Designator3(
+                       x
+                      ) [Designator3]
+                    ) [Factor8]
+                  ) [Term2]
+                ) [Expr1]
+              ) [Designator_left]
+            ) [Matched1]
+          ) [Statement_list]
+          Matched1(
+            Designator3(
+             a
+            ) [Designator3]
+            Designator_left(
+              Expr2(
+                Term2(
+                  Factor8(
+                    Designator2(
+                      DesignatorArray(
+                        Designator3(
+                         karak
+                        ) [Designator3]
+                      ) [DesignatorArray]
+                      Expr2(
+                        Term2(
+                          Factor1(
+                           1
+                          ) [Factor1]
+                        ) [Term2]
+                      ) [Expr2]
+                    ) [Designator2]
+                  ) [Factor8]
+                ) [Term2]
+              ) [Expr2]
+            ) [Designator_left]
+          ) [Matched1]
+        ) [Statement_list]
+        Matched1(
+          Designator3(
+           y
+          ) [Designator3]
+          Designator_left(
+            Expr2(
+              Term2(
+                Factor8(
+                  Designator2(
+                    DesignatorArray(
+                      Designator3(
+                       tacnost
+                      ) [Designator3]
+                    ) [DesignatorArray]
+                    Expr2(
+                      Term2(
+                        Factor1(
+                         0
+                        ) [Factor1]
+                      ) [Term2]
+                    ) [Expr2]
+                  ) [Designator2]
+                ) [Factor8]
+              ) [Term2]
+            ) [Expr2]
+          ) [Designator_left]
+        ) [Matched1]
+      ) [Statement_list]
+    ) [Function_decl]
+  ) [Func_dec1]
+) [Programm]
+===================================

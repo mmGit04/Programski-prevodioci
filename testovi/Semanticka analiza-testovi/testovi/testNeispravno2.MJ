@@ -1,0 +1,47 @@
+program MJProgram
+	const int konst=16; //Ovo je komentar;
+	const bool notT=false;
+	const bool T=true;
+	const char b='b';
+	
+	bool y;
+	nijeTip a;
+	char M;
+	int proba[];
+	char karak[];
+	int brojac;
+	int pom;
+	int nijeKompatabilan;
+	
+{
+	
+	void k () int c,q; char niz[]; {
+		konst = 62;
+		proba=new int[4];
+		y=true;
+		nijeKompatabilan='c';	
+		
+	
+		}
+
+	
+	void main() {
+	    read(brojac);
+	    read(y);
+	    read(M);
+	    read(proba[1]);
+	    print('m');
+		print(true);
+		print(4+5/3,2);
+		brojac--;
+		brojac++;
+		brojac=7*(8 % 9+5-4)/3;
+		pom=-3;
+		
+		
+		proba[2]=3+5;
+		
+		k();
+		
+	}
+}

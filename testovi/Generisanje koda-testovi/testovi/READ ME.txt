@@ -1,0 +1,28 @@
+TestIspravno1:
+1.Testiranje Expr sa aritmetickim izrazima;I zagradama.
+2.Dodela vrednosti svim tipovima char i bool i int.
+3.Dodela vrednosti lokalnim promenljivama .
+Promenljive kojima se dodaje vrednostu su iskljucivo bile skalarnog tipa a ne nizovskog.
+4.Dodela vrednosti sa designatorom sa desne strane.Const i Var sa desne strane u okviru addop i mullop.I sa desne strane bool const i var,i za char const i bool.Sa desne strane.
+Ovaj test testira izraze za dodelu vrednosti ne ukljucujuci nizovske podakte.
+
+TestIspravno2:
+1.Kreiranje niza svih osnovnih tipova;
+2.Dodela vrednosti svim promenljvama tipa niz osnovnih tipova.
+3.Da se elementi niza nalaze sa desne strane.
+4.Dodela vrednosti niza nekom elemetnu ,u smislu adrese//Ovo ne moze jer kaze da tipovi nisu kompatabilni.
+
+Menjala sam smenu koja je postojala jer se meni prvo na stek smestala vrednost expr pa zatim adresa niza.
+
+Ali mi se javlja exception kaze :jer sam stavila da niz ima 1 element a stavila sam da se na 0 adresu smesta.
+Sobzirom na promenu koju sam uvela treba testirati ponovo sve testove koje sam pisala.
+
+TestIspravno3:
+1.Rad read naredbe.
+2.Za bool vrednosti mogu da upisujem samo 0 ili 1; za read.
+3.Testiranje print naredbe bez width
+4.Testiranje print naredbe sa width;
+
+TestIspravno4:
+1.Poziv funkcije.
+2.INC i DEC;
